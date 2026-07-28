@@ -1,1 +1,0 @@
-import{aa as n,ab as i}from"./index-DfxcIkvT.js";const s="KHR_mesh_quantization";class a{constructor(t){this.name=s,this.enabled=t.isExtensionUsed(s)}dispose(){}}n(s);i(s,!0,e=>new a(e));export{a as KHR_mesh_quantization};
