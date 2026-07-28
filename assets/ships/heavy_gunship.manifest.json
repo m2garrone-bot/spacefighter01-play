@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "category": "ship",
+  "origin": "original project asset",
+  "asset": "heavy_gunship",
+  "source": {
+    "path": "assets/placeholders/combat/heavy_gunship/heavy_gunship.blend",
+    "sha256": "98ede39f334783b1d4e8a6dca9aa9f9891de47e1f8821b661aa4652098c0cd71"
+  },
+  "source_glb": {
+    "path": "assets/placeholders/combat/heavy_gunship/heavy_gunship.glb",
+    "sha256": "15200681180cd69963b25bd5d0440977c71375d22706391da942834f7dcfcda9"
+  },
+  "source_manifest": "assets/placeholders/combat/heavy_gunship/manifest.json",
+  "source_verdict": "PASS",
+  "final": {
+    "path": "apps/client/public/assets/ships/heavy_gunship.glb",
+    "sha256": "15200681180cd69963b25bd5d0440977c71375d22706391da942834f7dcfcda9",
+    "bytes": 16980
+  },
+  "geometry": {
+    "triangles": 216,
+    "materials": 3,
+    "textures": 0,
+    "bounds": "10x4x12",
+    "nose": "+Z",
+    "up": "+Y"
+  },
+  "provenance": "project-authored procedural asset; deterministic bpy primitives; no external samples, textures, or copied code; Babylon API concepts only from official Apache-2.0 sources; no copied code or notice delta",
+  "babylon_references": {
+    "asset_container": "https://github.com/BabylonJS/Babylon.js/blob/master/packages/dev/core/src/assetContainer.ts",
+    "licence": "https://github.com/BabylonJS/Babylon.js/blob/master/license.md"
+  },
+  "licence_notice_needed": false
+}

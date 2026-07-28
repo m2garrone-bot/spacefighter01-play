@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "category": "combat",
+  "origin": "original project assets",
+  "assets": {
+    "guided_missile": {
+      "asset": "guided_missile",
+      "source": {
+        "path": "assets/placeholders/combat/guided_missile/guided_missile.blend",
+        "sha256": "d2388e21602270102502d57a7bfdc73b257433f0ff6b0bb410d4df5f23523f03"
+      },
+      "source_glb": {
+        "path": "assets/placeholders/combat/guided_missile/guided_missile.glb",
+        "sha256": "8ab6b029ba40c1040837b5ddc557792d4ae85789fd72b0998da6c4694716a55c"
+      },
+      "source_manifest": "assets/placeholders/combat/guided_missile/manifest.json",
+      "source_verdict": "PASS",
+      "final": {
+        "path": "apps/client/public/assets/combat/guided_missile.glb",
+        "sha256": "8ab6b029ba40c1040837b5ddc557792d4ae85789fd72b0998da6c4694716a55c",
+        "bytes": 11636
+      },
+      "geometry": {
+        "triangles": 132,
+        "materials": 3,
+        "textures": 0,
+        "bounds": "1.2x1.2x5",
+        "nose": "+Z",
+        "up": "+Y"
+      }
+    },
+    "bullet": {
+      "asset": "bullet",
+      "source": {
+        "path": "assets/placeholders/combat/bullet/bullet.blend",
+        "sha256": "5854f2d3e4b60a0283f85ae182cc8309c9feeaf46388d4cbc1ee0366465a958e"
+      },
+      "source_glb": {
+        "path": "assets/placeholders/combat/bullet/bullet.glb",
+        "sha256": "11fefb8148deec49ee9cbc931510b51e51e7806fa03226264d8580158670218e"
+      },
+      "source_manifest": "assets/placeholders/combat/bullet/manifest.json",
+      "source_verdict": "PASS",
+      "final": {
+        "path": "apps/client/public/assets/combat/bullet.glb",
+        "sha256": "11fefb8148deec49ee9cbc931510b51e51e7806fa03226264d8580158670218e",
+        "bytes": 5496
+      },
+      "geometry": {
+        "triangles": 56,
+        "materials": 2,
+        "textures": 0,
+        "bounds": "0.38x0.38x1.7",
+        "nose": "+Z",
+        "up": "+Y"
+      }
+    },
+    "plasma": {
+      "asset": "plasma",
+      "source": {
+        "path": "assets/placeholders/combat/plasma/plasma.blend",
+        "sha256": "102b3f37a6096a2ca288e62157d3d8be46a64d15564f3374878bd3204ca3b25a"
+      },
+      "source_glb": {
+        "path": "assets/placeholders/combat/plasma/plasma.glb",
+        "sha256": "c34f4c6162228f15a0dbcd29ed0585b5c213e77a86edf621b31b0a29ca0cb622"
+      },
+      "source_manifest": "assets/placeholders/combat/plasma/manifest.json",
+      "source_verdict": "PASS",
+      "final": {
+        "path": "apps/client/public/assets/combat/plasma.glb",
+        "sha256": "c34f4c6162228f15a0dbcd29ed0585b5c213e77a86edf621b31b0a29ca0cb622",
+        "bytes": 11944
+      },
+      "geometry": {
+        "triangles": 100,
+        "materials": 2,
+        "textures": 0,
+        "bounds": "1.3x1.3x2.6",
+        "nose": "+Z",
+        "up": "+Y"
+      }
+    },
+    "flak": {
+      "asset": "flak",
+      "source": {
+        "path": "assets/placeholders/combat/flak/flak.blend",
+        "sha256": "3f806e7b9427175ba7c680c2bb9fcf65cae2956843f031be5be79d27fd1c83e8"
+      },
+      "source_glb": {
+        "path": "assets/placeholders/combat/flak/flak.glb",
+        "sha256": "003022113e41a02b9424948f579772f006c0fc32f04cb509553ca9ca1bc2124a"
+      },
+      "source_manifest": "assets/placeholders/combat/flak/manifest.json",
+      "source_verdict": "PASS",
+      "final": {
+        "path": "apps/client/public/assets/combat/flak.glb",
+        "sha256": "003022113e41a02b9424948f579772f006c0fc32f04cb509553ca9ca1bc2124a",
+        "bytes": 10872
+      },
+      "geometry": {
+        "triangles": 132,
+        "materials": 2,
+        "textures": 0,
+        "bounds": "0.8x0.8x1.8",
+        "nose": "+Z",
+        "up": "+Y"
+      }
+    }
+  },
+  "provenance": "project-authored procedural asset; deterministic bpy primitives; no external samples, textures, or copied code; Babylon API concepts only from official Apache-2.0 sources; no copied code or notice delta",
+  "babylon_references": {
+    "asset_container": "https://github.com/BabylonJS/Babylon.js/blob/master/packages/dev/core/src/assetContainer.ts",
+    "licence": "https://github.com/BabylonJS/Babylon.js/blob/master/license.md"
+  },
+  "licence_notice_needed": false
+}

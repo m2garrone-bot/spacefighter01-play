@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "category": "ship",
+  "origin": "original project asset",
+  "asset": "light_interceptor",
+  "source": {
+    "path": "assets/placeholders/combat/light_interceptor/light_interceptor.blend",
+    "sha256": "8b2e7f1bd9ce019da1679641254af0a28e399ff6061d31f104d654e96804dc3d"
+  },
+  "source_glb": {
+    "path": "assets/placeholders/combat/light_interceptor/light_interceptor.glb",
+    "sha256": "6b10d08ac6a33272b86583c945cbc0b1ba278ffa4f9813a165cd37a24c4fef87"
+  },
+  "source_manifest": "assets/placeholders/combat/light_interceptor/manifest.json",
+  "source_verdict": "PASS",
+  "final": {
+    "path": "apps/client/public/assets/ships/light_interceptor.glb",
+    "sha256": "6b10d08ac6a33272b86583c945cbc0b1ba278ffa4f9813a165cd37a24c4fef87",
+    "bytes": 11916
+  },
+  "geometry": {
+    "triangles": 136,
+    "materials": 3,
+    "textures": 0,
+    "bounds": "6x2x8",
+    "nose": "+Z",
+    "up": "+Y"
+  },
+  "provenance": "project-authored procedural asset; deterministic bpy primitives; no external samples, textures, or copied code; Babylon API concepts only from official Apache-2.0 sources; no copied code or notice delta",
+  "babylon_references": {
+    "asset_container": "https://github.com/BabylonJS/Babylon.js/blob/master/packages/dev/core/src/assetContainer.ts",
+    "licence": "https://github.com/BabylonJS/Babylon.js/blob/master/license.md"
+  },
+  "licence_notice_needed": false
+}

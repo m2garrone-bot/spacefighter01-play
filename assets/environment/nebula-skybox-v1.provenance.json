@@ -1,0 +1,12 @@
+{
+  "asset": "nebula-skybox-v1.png",
+  "generator": "OpenAI built-in image generation",
+  "generatedOn": "2026-07-27",
+  "intendedUse": "2:1 equirectangular texture on an unlit inward-facing sky sphere",
+  "dimensions": {
+    "width": 1774,
+    "height": 887
+  },
+  "sha256": "479544423EEB14E10CD13C1952133C13D951CD4151B8120C3473591B67FCDC00",
+  "prompt": "Use case: stylized-concept\nAsset type: seamless equirectangular skybox panorama texture for a low-poly browser space-combat game\nPrimary request: deep outer-space starfield with restrained blue, violet, and magenta nebula clouds, sparse bright stars, subtle galactic dust, readable but not distracting behind gameplay\nComposition/framing: exact 2:1 equirectangular 360-degree panorama; left and right edges must join seamlessly; poles should remain dark and low-detail; distribute features broadly without a single focal object\nStyle/medium: polished game-environment texture, realistic-stylized, low visual noise\nLighting/mood: dark, high-contrast space ambience\nConstraints: no planets, ships, stations, characters, text, logos, watermark, borders, UI, horizon line, or directional sunlight; no obvious seam; suitable as an emissive unlit sky sphere; keep central gameplay area mostly dark\nAvoid: dense white star clutter, blown highlights, recognizable copyrighted universe imagery"
+}

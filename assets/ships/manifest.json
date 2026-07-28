@@ -1,0 +1,32 @@
+{
+  "asset": "medium_fighter_v001",
+  "origin": "original project asset",
+  "source": {
+    "path": "assets/benchmarks/standard/medium_fighter_v001.blend",
+    "sha256": "678EB5BCAC7E5CC18D23FAE1ED1C85477BD3ACACFFDC897C33BB5634DFECE93D"
+  },
+  "final": {
+    "path": "apps/client/public/assets/ships/medium_fighter_v001.glb",
+    "sha256": "26585E2C9ACD16DAC9F9685BC5D97A321DB5A49209DD929B304BAF3B86BEB5C0",
+    "bytes": 19076
+  },
+  "geometry": {
+    "triangles": 320,
+    "materials": 3,
+    "textures": 0,
+    "bounds": "2x1.94x4",
+    "nose": "+Z",
+    "up": "+Y"
+  },
+  "validation": {
+    "standard_blender": "accepted for browser, LAN, and mobile emulation through integration 06328d50a2a8635539d4b84c36c1a28256110373; real NullEngine/ShipAssetLibrary PBR tests 8/8; fallback/disposal retained",
+    "runtime_integration": "production LAN GLB GET 200 model/gltf-binary, 19076 B, SHA-256 26585e2c9acd16dac9f9685bc5d97a321db5a49209dd929b304baf3b86beb5c0; visual evidence accepted for dark-teal body, cyan canopy, twin orange engines; physical handset pending because ADB found no device",
+    "superhive": "blocked/not used"
+  },
+  "provenance": "project-authored procedural asset; no external samples or copied code; Babylon API concepts only from official Apache-2.0 sources; no copied code or notice delta",
+  "babylon_references": {
+    "asset_container": "https://github.com/BabylonJS/Babylon.js/blob/master/packages/dev/core/src/assetContainer.ts",
+    "licence": "https://github.com/BabylonJS/Babylon.js/blob/master/license.md"
+  },
+  "licence_notice_needed": false
+}

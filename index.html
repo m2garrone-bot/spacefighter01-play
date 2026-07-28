@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"/>
+    <title>Space Fighter</title>
+    <link rel="icon" href="data:," />
+    <script type="module" crossorigin src="/spacefighter01-play/assets/index-DfxcIkvT.js"></script>
+    <link rel="stylesheet" crossorigin href="/spacefighter01-play/assets/index-BEBJW71O.css">
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="game-canvas" aria-label="Space fighter arena"></canvas>
+      <button id="hud-toggle" type="button" aria-controls="hud scoreboard" aria-expanded="false" title="Show flight details (H)">HUD</button>
+      <section id="hud">
+        <strong id="connection" data-hud-detail role="status" aria-live="polite" aria-atomic="true">Connecting…</strong>
+        <span id="players" data-hud-detail>0 pilots</span>
+        <span id="health">Health 100</span>
+        <span id="npc-count" data-hud-detail>0 NPCs</span>
+        <span id="npc-health" data-hud-detail>NPC Health —</span>
+        <span id="npc-state" data-hud-detail>Encounter —</span>
+        <span id="npc-target" data-hud-detail>NPC Target —</span>
+        <span id="salvage-count" data-hud-detail aria-label="0 salvage orbs">SALVAGE 0</span>
+        <span id="salvage-nearest" data-hud-detail aria-label="Nearest salvage unavailable">NEAREST —</span>
+        <span id="station-status" data-hud-detail role="status" aria-live="polite">STATION — disconnected</span>
+        <span id="secondary-status" role="status" aria-live="polite"></span>
+        <button id="bank-item" type="button" hidden disabled>BANK 1 ITEM</button>
+        <span id="flight-mode" class="cruise" data-mode="cruise">CRUISE</span>
+        <span id="speed" aria-label="Speed 0">Speed 0</span>
+        <span id="ship-summary" data-hud-detail>SHIP —</span>
+        <button id="copy-invite" type="button" hidden>Copy Invite Link</button>
+        <span id="copy-invite-status" data-hud-detail role="status" aria-live="polite"></span>
+      </section>
+      <aside id="scoreboard" data-hud-detail aria-labelledby="scoreboard-heading">
+        <h2 id="scoreboard-heading">First to 5</h2>
+        <table>
+          <thead><tr><th scope="col">Name</th><th scope="col">K</th><th scope="col">D</th></tr></thead>
+          <tbody id="scoreboard-body"></tbody>
+        </table>
+      </aside>
+      <div id="match-overlay" role="status" aria-live="polite">Waiting for opponent</div>
+      <div id="target-indicator" hidden>
+        <span data-lock-state></span>
+        <strong data-target-name></strong>
+        <span data-target-range></span>
+        <span data-target-health></span>
+      </div>
+      <section id="touch-controls" aria-label="Touch flight controls" hidden>
+        <div id="touch-stick-translation" class="touch-stick" role="group" aria-label="Strafe and thrust stick"></div>
+        <div id="touch-stick-rotation" class="touch-stick" role="group" aria-label="Yaw and pitch stick"></div>
+        <div class="touch-actions" role="group" aria-label="Ship actions">
+          <button type="button" data-touch-control="lift-up">Lift up</button>
+          <button type="button" data-touch-control="lift-down">Lift down</button>
+          <button type="button" data-touch-control="roll-left">Roll left</button>
+          <button type="button" data-touch-control="roll-right">Roll right</button>
+          <button type="button" data-touch-control="fire">Fire</button>
+          <button type="button" data-touch-control="boost">Boost</button>
+          <button type="button" data-touch-control="drift">Drift</button>
+          <button type="button" data-touch-control="target">Target</button>
+          <button type="button" data-touch-control="secondary" disabled aria-disabled="true">Missile</button>
+        </div>
+      </section>
+      <div id="overlay" role="alert" hidden></div>
+    </main>
+  </body>
+</html>
