@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"/>
     <title>Space Fighter</title>
     <link rel="icon" href="data:," />
-    <script type="module" crossorigin src="/spacefighter01-play/assets/index-DHFVGBA7.js"></script>
-    <link rel="stylesheet" crossorigin href="/spacefighter01-play/assets/index-CcfpVazu.css">
+    <script type="module" crossorigin src="/spacefighter01-play/assets/index-ghNTaqsY.js"></script>
+    <link rel="stylesheet" crossorigin href="/spacefighter01-play/assets/index-VyxZ4VQt.css">
   </head>
   <body>
     <main id="app">
@@ -31,6 +31,18 @@
         <button id="copy-invite" type="button" hidden>Copy Invite Link</button>
         <span id="copy-invite-status" data-hud-detail role="status" aria-live="polite"></span>
       </section>
+      <aside id="tactical-radar" aria-label="Tactical radar" aria-live="off" hidden>
+        <h2>RADAR</h2>
+        <div class="tactical-radar__scope" aria-hidden="true">
+          <span class="tactical-radar__ring tactical-radar__ring--half"></span>
+          <span class="tactical-radar__ring tactical-radar__ring--full"></span>
+          <span class="tactical-radar__ring-label tactical-radar__ring-label--half" data-radar-half-scale></span>
+          <span class="tactical-radar__ring-label tactical-radar__ring-label--full" data-radar-full-scale></span>
+          <span class="tactical-radar__ship">▲</span>
+          <div class="tactical-radar__contacts"></div>
+        </div>
+        <span class="tactical-radar__summary">NO CONTACTS</span>
+      </aside>
       <aside id="scoreboard" data-hud-detail aria-labelledby="scoreboard-heading">
         <h2 id="scoreboard-heading">First to 5</h2>
         <table>
